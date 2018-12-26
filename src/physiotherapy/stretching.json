@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Roller",
+        "type": "Roller",
+        "min_duration": 1,
+        "max_duration": 2
+    },
+    {
+        
+    }
+]
