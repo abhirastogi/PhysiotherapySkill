@@ -1,5 +1,5 @@
 import * as Alexa from "ask-sdk";
-// import * as Routine from './routine'
+import * as Routine from './routine'
 
 const LaunchRequestHandler: Alexa.RequestHandler = {
     canHandle(handlerInput) {
@@ -23,13 +23,12 @@ const StartSessionIntentHandler: Alexa.RequestHandler = {
     },
     handle(handlerInput) {
         // Create session
-        // let routine_time : number = 4;
-        // let routine = new Routine.Routine(routine_time);
-        // let speechText = routine.createRoutine();
-        let speechText = "abhi";
+        let routine_time : number = 4;
+        let routine = new Routine.Routine(routine_time);
+        let speechText = routine.createRoutine();
+        console.log(speechText);
         return handlerInput.responseBuilder
             .speak(speechText)
-            .withSimpleCard('Hello World', speechText)
             .getResponse();
     }
 };
