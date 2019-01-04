@@ -1,5 +1,5 @@
 {
-  "name": "alexa-lambda-typescript",
+  "name": "physiotherapy-skill",
   "version": "1.0.0",
   "description": "A sample Alexa Skill handler with AWS Lambda functions in TypeScript and Serverless.",
   "main": "index.js",
