@@ -1,4 +1,0 @@
---compilers ts-node/register
---recursive
---full-trace
-test/**/*.spec.ts

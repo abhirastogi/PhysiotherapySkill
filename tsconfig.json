@@ -1,25 +1,17 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "es6",
-        "lib": [
-            "es6"
-        ],
-        "moduleResolution": "node",
-        "rootDir": "./",
-        "sourceMap": true,
-        "allowJs": true,
-        "noImplicitAny": true,
-        "noUnusedLocals": true,
-        "noImplicitThis": true,
-        "strictNullChecks": true,
-        "noImplicitReturns": true,
-        "preserveConstEnums": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "forceConsistentCasingInFileNames": true,
-        "strict": true
+      "target": "es6",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "suppressImplicitAnyIndexErrors": true
     },
-    "exclude": [
-        "node_modules"
-    ]
-}
+    "include": [
+      "src/**/*.ts"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+      "usePrecompiledFiles": true,
+      "useWebpackText": true
+    }
+  }
