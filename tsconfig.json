@@ -1,17 +1,10 @@
 {
-    "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
-      "moduleResolution": "node",
-      "emitDecoratorMetadata": true,
-      "experimentalDecorators": true,
-      "suppressImplicitAnyIndexErrors": true
-    },
-    "include": [
-      "src/**/*.ts"
-    ],
-    "awesomeTypescriptLoaderOptions": {
-      "usePrecompiledFiles": true,
-      "useWebpackText": true
-    }
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "dist",
+    "rootDir": ".",
+    "sourceMap": true,
+    "strict": false
   }
+}

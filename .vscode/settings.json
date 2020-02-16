@@ -1,0 +1,8 @@
+{
+    "azureFunctions.projectSubpath": "dist",
+    "azureFunctions.deploySubpath": "dist",
+    "azureFunctions.projectLanguage": "TypeScript",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "npm prune"
+}
